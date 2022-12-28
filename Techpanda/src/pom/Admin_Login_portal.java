@@ -16,6 +16,8 @@ public class Admin_Login_portal extends Base_page {
 	}
 	@FindBy(xpath = "//span[.='close']")
 	private WebElement Close;
+	@FindBy(xpath = "//span[.='close']")
+	private WebElement Close1;
 	@FindBy(xpath = "//input[@name='login[username]']")
 	private  WebElement Un;
 	@FindBy(xpath="//input[@name='login[password]']")
